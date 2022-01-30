@@ -1,0 +1,26 @@
+.topnav {
+    background-color: lightsteelblue;
+    overflow: hidden;
+    display: flex;
+    padding: 1px;
+}
+
+.topnav div {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    flex: 100;
+    padding: 1.5%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.topnav div:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+.topnav div.active {
+    background-color: steelblue;
+    color: black;
+}
