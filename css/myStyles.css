@@ -25,7 +25,7 @@
     color: black;
 }
 
-.centerContents{
+.homePageCenterContents{
     width: 80%;
     height: 80%;
     display: block;
@@ -42,4 +42,13 @@
     background: lightpink;
     margin: auto;
     padding: 1%;
+}
+
+.projectBox {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background: lightblue;
+    margin: auto;
+    padding: 0.1% 1%;
 }
