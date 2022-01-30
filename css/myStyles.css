@@ -24,3 +24,22 @@
     background-color: steelblue;
     color: black;
 }
+
+.centerContents{
+    width: 80%;
+    height: 80%;
+    display: block;
+    background: lightpink;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.homePagebox {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background: lightpink;
+    margin: auto;
+    padding: 1%;
+}
