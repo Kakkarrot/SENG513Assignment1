@@ -52,3 +52,21 @@
     margin: auto;
     padding: 0.1% 1%;
 }
+
+.hobbiesBody{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../assets/dragon-ball-z-kakarot-how-to-get-dragon-balls-shenron-wish.large.jpeg") no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+.hobbiesBox {
+    width: 80%;
+    height: 80%;
+    display: block;
+    background: transparent;
+    margin: auto;
+    padding: 0.1% 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
