@@ -1,3 +1,22 @@
+.bodyGrey {
+    background-color: lightslategrey;
+}
+
+.homeImageBox {
+    height: 10em;
+    width: 10em;
+    display: block;
+    background: lightpink;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.homeImageBox img {
+    height: 100%;
+    width: 100%;
+}
+
 .topnav {
     background-color: lightsteelblue;
     overflow: hidden;
