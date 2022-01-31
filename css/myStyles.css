@@ -2,21 +2,6 @@
     background-color: lightslategrey;
 }
 
-.homeImageBox {
-    height: 10em;
-    width: 10em;
-    display: block;
-    background: lightpink;
-    margin: auto;
-    padding: 1%;
-    text-align: center;
-}
-
-.homeImageBox img {
-    height: 100%;
-    width: 100%;
-}
-
 .topnav {
     background-color: lightsteelblue;
     overflow: hidden;
@@ -42,6 +27,21 @@
 .topnav div.active {
     background-color: steelblue;
     color: black;
+}
+
+.homeImageBox {
+    height: 10em;
+    width: 10em;
+    display: block;
+    background: lightpink;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.homeImageBox img {
+    height: 100%;
+    width: 100%;
 }
 
 .homePageCenterContents{
@@ -72,6 +72,21 @@
     padding: 0.1% 1%;
 }
 
+.projectImageBox {
+    height: 10em;
+    width: 10em;
+    display: block;
+    background: lightblue;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.projectImageBox img {
+    height: 100%;
+    width: 100%;
+}
+
 .hobbiesBody{
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../assets/dragon-ball-z-kakarot-how-to-get-dragon-balls-shenron-wish.large.jpeg") no-repeat fixed;
     background-size: 100% 100%;
@@ -88,4 +103,27 @@
     font-weight: bold;
     font-size: 2rem;
     color: black;
+}
+
+.aboutMeImageBox {
+    height: 10em;
+    width: 10em;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.aboutMeImageBox img {
+    height: 100%;
+    width: 100%;
+}
+
+.aboutMeBox {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+    padding: 1%;
+    color: whitesmoke;
 }
