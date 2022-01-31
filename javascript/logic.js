@@ -5,12 +5,21 @@
 function getStats(txt) {
     // you need to write your own code here
 
-   
+   let wordCount = 0;
+   //getting rid of new lines
+   let split = txt.replace(/[\r\t\n]+/g," ");
+   //splitting numbers and letters
+   split = split.replace(/[^0-9](?=[0-9])/g, '$& ');
+   //stripping all special characters
+   split = split.replace(/[^0-9a-zA-Z\s]/g, '');
+   //getting word count where words are not empty
+   split = split.split(" ").filter(i => i);
+
    
 
     return {
-        nChars: 58,                                                     
-        nWords: 22,
+        nChars: txt.length,
+        nWords: split.length,
         nLines: 10,
         nNonEmptyLines: 22,
         averageWordLength: 3.3,
