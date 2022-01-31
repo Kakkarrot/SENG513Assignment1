@@ -22,7 +22,8 @@ function getStats(txt) {
     for (let word in nWords) {
         averageWordLength += word.length
     }
-    averageWordLength = averageWordLength/nWords.length
+    if (nWords.length > 0)
+        averageWordLength = averageWordLength/nWords.length
 
     let maxLineLength = 0
     for (let line in nNonEmptyLines) {
@@ -46,7 +47,7 @@ function getStats(txt) {
         nNonEmptyLines: nNonEmptyLines.length,
         averageWordLength: averageWordLength,
         maxLineLength: maxLineLength,
-        tenLongestWords: nWords.slice(0, 10),
+        tenLongestWords: [...new Set(nWords)].slice(0, 10),
         tenMostFrequentWords: sorted.slice(0, 10)
     };
 
